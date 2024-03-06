@@ -7,6 +7,14 @@
       padding-top: 40px;
       padding-bottom: 40px;
       background-color: #460000;
+      display: flex;
+      justify-content: space-around;
+      font-family: Geometria, Arial, sans-serif;
+    }
+
+    .banner {
+      display: flex;
+      justify-content: center;
     }
 
     .banner-image {
@@ -16,43 +24,62 @@
     }
 
     .title {
-      width: 1fr;
-    height: 128px;
+      height: 96px;
+      width:fit-content;
     }
+
     .name {
       color: #ffffff;
+      display: flex;
+      justify-content: center;
+    }
+
+    .socials {
+      display: flex;
+      justify-content: center;
     }
 
     .thumbnail {
-      width: 48px;
-      height: 48px;
+      width: 40px;
+      height: 40px;
+      border-radius: 40px;
       object-fit: cover;
     }
 
     .link {
       background-color: #FCEEED;
+      display: flex;
+      align-items: center;
+      border-radius: 20px;
+      padding: 5px;
     }
 
     .link a {
       color: #1d283f;
       text-decoration: none;
+      text-align: center;
+      flex-grow: 1;
     }
 
     .items {
       display: flex;
       flex-direction: column;
+      gap: 15px;
+      max-width: 640px;
+      flex-grow: 1;
     }
 
   </style>
 </head>
   <body>
   <div class="items"> 
+    
     <div class="banner">
       <img src="Images/Brother-img-sq.jpg" alt="main icon" class="banner-image">
-      <img src="Images/Brother-title-white-horiz.png" alt="title" class="title">
     </div>
+
     <div class="name">
-      Brother short film
+      <img src="Images/Brother-title-white-horiz.png" alt="Brother short film" class="title">
     </div>
 
     <div class="socials">
@@ -65,7 +92,7 @@
     </div>
 
     <div class="link">
-      <a href="https://aborovikov.com/ccc" target="_blank">About the film</a>
+      <a href="https://aborovikov.com/ccc" target="_blank">About the Film</a>
     </div>
     
     <div class="link">
@@ -73,7 +100,7 @@
     </div>
     
     <div class="link">
-      <a href="https://youtu.be/6rt2zTxgjW4" target="_blank"Watch the Trailer</a>
+      <a href="https://youtu.be/6rt2zTxgjW4" target="_blank">Watch the Trailer</a>
     </div>
     
     <div class="link">
